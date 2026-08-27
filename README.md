@@ -37,3 +37,14 @@ Weighted across criteria: `Σ(weight × effective %) / Σ(weight × 100)`
 Data lives in the browser session. Use the admin area to edit projects,
 categories, sections, criteria, documents, owners and gates, then **Export JSON**
 to keep a copy. **Import JSON** loads it back on any device.
+
+### Importing from Excel
+
+Under **Admin → Readiness criteria**, use **Download Excel template** to get a
+spreadsheet with the expected columns (Category, Section, Title, Status,
+% Complete, Weight, Owner, Gate, Risk, Due Date, …), fill it in, and use
+**Import Excel…** to upload it back. Accepts `.xlsx`, `.xls` or `.csv`.
+Categories, sections and owners that don't exist yet are created
+automatically; a preview shows exactly what will change before anything is
+written. Everything is parsed in your browser — the file is never uploaded
+anywhere.
